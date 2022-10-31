@@ -9,4 +9,9 @@ public class MainTest {
     public void HelloTest(){
     assertTrue(true);
     }
+
+    @Test
+    void test_false_asserts_false(){
+        assertFalse(false);
+    }
 }
